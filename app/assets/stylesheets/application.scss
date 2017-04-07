@@ -98,8 +98,9 @@ table {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: $color1 image-url('background-photo.jpeg');
-  background-size: cover;
+  background: #2160b2;
+  background: bottom center url(http://i.imgur.com/hJcN8RI.png), linear-gradient(to bottom, #2160b2 0%,#68a4fe 52%,#c8e4fe 70%);
+  background-size: 100%;
   background-attachment: fixed;
   font-size: 13px;
   line-height: 18px;
@@ -109,6 +110,7 @@ body {
   text-rendering: optimizelegibility;
   font-feature-settings: "kern";
   text-size-adjust: none;
+  background-repeat: no-repeat;
 
   &.app-body {
     position: fixed;

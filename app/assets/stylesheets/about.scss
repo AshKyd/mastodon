@@ -3,8 +3,10 @@
     max-width: 600px;
     margin: 0 auto;
     color: $color3;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background: rgba(0,0,0,.8);
+    padding: 25px 50px;
+    margin-top: 50px;
+    border-radius: 4px;
 
     &.thicc {
       max-width: 700px;
